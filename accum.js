@@ -1,5 +1,6 @@
 function accum(s) {
 	// your code
+  if(!(/^[a-zA-Z]+$/.test(s))) return s;
     let result = ''
   for(let i = 0; i < s.length; i++){
     let first = s[i].toUpperCase();
